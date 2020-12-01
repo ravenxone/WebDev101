@@ -1,0 +1,37 @@
+#inline *{
+    height: 100px;
+    width: 100px;
+    display: inline-block; 
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 32px;
+}
+/* pixel is basically a single dot
+section span, section a, section b, section em
+says whatever is inside inline id element apply
+inline block tells browser to treat the block
+pixels
+em
+ */
+#block *{
+    display: inline;
+
+}
+/* 
+#block{
+    apply to element with id block
+} */
+/* 
+#block b{
+     apply to element b which is inside element with id block
+} */
+
+/* #block *{
+    apply to all the children of element with id block
+} */
+
+/* p *{} */
+
+/* .class *{
+    
+} */

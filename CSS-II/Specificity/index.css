@@ -1,0 +1,28 @@
+/* .class {
+  background-color: purple;
+}
+#id {
+  background-color: red;
+}
+
+html body {
+  background-color: peru;
+} */
+/*this style is applied 
+this is more specific in nature
+the more selective components will have p
+*/
+body {
+  background-color: palevioletred;
+}
+body {
+  background-color: mediumslateblue;
+}
+/* element selector
+they are of same class and there is a rule of nesting
+ */
+
+/* id  class generic */
+/* 
+if there is a tie then we do it by predence 
+more details more specification*/

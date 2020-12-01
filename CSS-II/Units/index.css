@@ -1,0 +1,47 @@
+.bar{
+    font-size: 12px;
+    width: 100em;
+}
+
+.progress{
+    font-size: 8px;
+    width: 50em;
+}
+
+/* .bar{
+    
+    width: 1600px; = 100 em if not defined by anyone
+}
+
+.progress{
+    width: 50em;
+} */
+
+
+/* 
+100% of it's parent 
+100px
+1em = 16px 
+
+12*100 = 1200
+16*50 = 800
+
+800/1200 = 66.66%
+
+400/1200 = 33.33% 
+
+*/
+* {
+   font-size: 18px; 
+}
+.bar{
+    font-size: 12px;
+    width: 100rem;
+}
+
+.progress{
+    font-size: 8px;
+    width: 50rem;
+}
+/* 
+rem stands for root em and is not changed by the parent element works on root element only */
