@@ -1,3 +1,31 @@
 .textSection{
-    
+    background-color: blanchedalmond;
+    font-size: large;
 }
+.internalHeader{
+    color: tomato;
+}
+.same{
+    color: navy;
+}
+
+section ul {
+   background-color: aliceblue; 
+}
+ul{
+    background-color: white;
+    color: black;
+}
+p b, li b, #notSame{
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+   color: green; 
+}
+b{
+    color: turquoise;
+}
+/* section p b, ul{
+    basically means b which is inside p which is inside section as well as ul
+    p b means b inside p
+    
+} */
