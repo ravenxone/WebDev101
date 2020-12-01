@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+h1 {
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#myIphone9 {
+  color: red;
+  font-size: large;
+}
+div {
+  background-color: beige;
+  font-size: medium;
+}
+.sports {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightcyan;
+  color: black;
+}
+.phoneName {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightcyan;
+  color: black;
+}
+
+#hockeyCheckbox {
+  color: red;
+  font-size: large;
+}
