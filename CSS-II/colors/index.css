@@ -1,0 +1,43 @@
+.box{
+    background-color:honeydew;
+    background-color: #000;
+    background-color: #777;
+    background-color: #AAA;
+    background-color: #FFF;
+    background-color: #fff;
+    background-color: #1d1d1d;
+    background-color: rgb(169, 33, 33);
+    background-color: rgba(169, 33, 33,0);
+    background-color: rgba(169, 33, 33,0.5);
+    background-color: rgba(169, 33, 33,0.75);
+    background-color: #83f52c;
+}
+/* 
+RBG -> Ruth Bader Ginsburg -> google her up and share with your classmates
+
+RGB Red Green and Blue
+140 predefined colors with the basic css
+
+Hexcode 16 numbers
+0-9
+A-F 10 10 10 
+000 darkest shade FFF lighest
+rgb 000 => #000 => black
+
+there is something called a or opacity filter to control the extent of color
+alpha 0-> 1 0 opaque
+1 transparent
+
+https://www.colorzilla.com/firefox/welcome/new/
+
+or simple google color picker
+
+do play around the different mixtures and undertones of colour
+
+Uber
+ homeMap color -> gray
+Ig 
+WhatsApp
+// create a homework thread and let's see submisson 
+
+ */

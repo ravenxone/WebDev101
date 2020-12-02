@@ -1,0 +1,53 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    padding: 20px 12px;
+    padding: 20px 10px 8px 12px;
+    padding: 20px;
+    /* margin: 10px; */
+    margin: 10px 20px 10px 0px;
+    /* top 10px right 20px bottom 10px left 0px */
+    /* box-sizing: border-box; */
+    border-style: solid;
+    border-color: black;
+    border-width: 30px;
+
+    border: solid 2px tomato;
+    /* this line means add extra 20 px to all sides of this element
+    100*100  
+    (20+100+20)*(20+100+20) 
+    extra addn to the content
+    padding is for element itself
+    plot 
+    someplaces 100*100 
+    other places they give you +- 5 in every direction
+    border-box which tells how your box will place content
+    padding 20px
+    equivalent 
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+
+    padding 20px 12px
+    top-bottom : 20px
+    right-left: 12px
+
+    margin 20px
+    equivalent 
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+    margin 20px 12px
+    top-bottom : 20px
+    right-left: 12px
+
+
+    */
+}
+.content{
+    background-color: white;
+}

@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    box-sizing: border-box;
+    padding: 2.5px 5px;
+    margin: 3px;
+    border: solid 2px red;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+    font: italic 12px Cambria;
+}
+
+.content{
+    background-color: white;
+}
+#box2{
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.0;
+}
+
+/* display = none don't put it on screen, element is non existent
+visibility =hidden creates the element and then hides it i.e no accessibilty
+opacity = put element and alter i.e accesibility
+
+*/
