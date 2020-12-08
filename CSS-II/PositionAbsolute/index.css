@@ -1,0 +1,14 @@
+.parent{
+    /* position:static; */
+    /* position: relative; */
+    position: absolute;
+}
+
+.child{
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+}
+.child2{
+    position: absolute;
+}

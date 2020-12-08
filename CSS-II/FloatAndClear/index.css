@@ -1,0 +1,33 @@
+.box{
+    height: 200px;
+    width: 200px;
+}
+.purple{
+    float: left;
+    width: 20%;
+    height: 880px;
+}
+.tomato{
+    float: right;
+    width: 80%;
+    height: 80px;
+}
+.gold{
+    clear: right;
+    float: right;
+    width: 80%;
+    height: 400px;
+}
+
+.green{
+    clear: right;
+    float: right;
+    width: 80%;
+    height: 400px;
+}
+.clear{
+    clear: both;
+}
+/*
+nav bar of
+*/

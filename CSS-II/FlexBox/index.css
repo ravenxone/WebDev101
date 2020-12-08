@@ -1,0 +1,23 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    align-items: stretch; /*default|flex-start|flex-end*/
+    flex-wrap: nowrap
+
+}
+#element1{
+    /* order: 2;
+    flex: 1 */
+}
+
+#element2{
+    /* order: 3;
+    
+    flex: 6    */
+}
+
+#element3{
+    /* order: 1;
+    flex: 2; */
+}

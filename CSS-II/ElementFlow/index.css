@@ -1,0 +1,15 @@
+.inline{
+    background-color: red;
+    padding: 2px 3px;
+    display: inline-block;
+    font-size: 10px;
+    height: 10em; /*height = 100px*/
+    width: 10em;
+
+}
+/*default is 16px for the browser
+but if you redifine the size it will take that only*/
+.block{
+    border: black 2px solid;
+
+}

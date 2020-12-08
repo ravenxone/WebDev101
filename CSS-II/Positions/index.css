@@ -1,0 +1,35 @@
+.block{
+   
+}
+.inline {
+    position: static;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+}
+#inline2{
+     /*static position it would have had been*/
+     position: relative;
+     top: 10px;
+     /* bottom: 10px;
+     right: 10px;
+     left: 10px; 
+     these are offsets
+     */
+}
+#inline3{
+    position: fixed;
+    /* plays with the viewport and you have all those four properties 
+     bottom: 10px;
+     right: 10px;
+     left: 10px; 
+     these are offsets
+    */
+}
+#inline4{
+    position: static;
+}
+#inlineBox{
+    position: static;
+}
