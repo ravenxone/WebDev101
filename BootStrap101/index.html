@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ -->
+
+    <title>My Bootstrap Notebook!</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Basics -->
+        <h1>Hello world!</h1>
+        <p>
+            Lorem <mark>ipsum dolor sit amet consectetur</mark> adipisicing elit.
+            Voluptates fugit ipsum deleniti, voluptas velit, similique iste
+            laudantium optio delectus unde neque itaque,
+            <u>quibusdam excepturi culpa</u> consequuntur totam ad autem ex.
+        </p>
+        <p>
+            Lorem <mark>ipsum dolor sit amet consectetur</mark> adipisicing elit.
+            Voluptates fugit ipsum deleniti, voluptas velit,
+            <del>similique iste laudantium </del> optio delectus unde neque itaque,
+            <u>quibusdam excepturi culpa</u>
+            consequuntur totam ad autem ex.
+        </p>
+        <hr>
+        <!-- Text Orientation -->
+        <div class="text-left">
+            <p>I will start from left</p>
+        </div>
+        <div class="text-right">
+            <p>I will start from right</p>
+        </div>
+        <div class="text-center">
+            <p class="">I will start from center</p>
+        </div>
+        <div class="clearfix"></div>
+        
+        <!-- use this to clear all the mess around -->
+        <hr />
+
+        <!-- blockquote -->
+        <blockquote class="blockquote">
+            <p>It's not difficult, it's just new!</p>
+            <footer class="blockquote-footer">
+                Said by <cite title="unsorteArray">Unsorted Array </cite>
+            </footer>
+        </blockquote>
+        <hr />
+        <blockquote class="blockquote text-center">
+            <p>If hardwork ain't enough, work harder!</p>
+            <footer class="blockquote-footer text-right">
+                Said by <cite title="unsorteArray">Unsorted Array </cite>
+            </footer>
+        </blockquote>
+        <hr />
+        <blockquote class="blockquote text-right">
+            <p>OOO! What a fun to code it out!</p>
+            <footer class="blockquote-footer">
+                Said by <cite title="unsorteArray">Unsorted Array </cite>
+            </footer>
+        </blockquote>
+        <hr />
+        <!-- lists -->
+        <ul class="list-unstyled">
+            <li>Wayne Rooney</li>
+            <li>Bruno Fernandes</li>
+            <li>Marcus Rashford</li>
+            <li>Gigsy and Scholes</li>
+        </ul>
+        <hr />
+        <ul class="list-inline">
+            <li class="list-inline-item">Wayne Rooney</li>
+            <li class="list-inline-item">Bruno Fernandes</li>
+            <li class="list-inline-item">Marcus Rashford</li>
+            <li class="list-inline-item">Gigsy and Scholes</li>
+        </ul>
+
+        <hr />
+        <!-- code blogs -->
+        <!-- bonus why pre tag? -->
+        <code>
+        &lt; h1 &gt;
+        <!-- <h1> -->
+        <!-- <h1>  this means a h1 tag-->
+        <p>
+          to copy press cmd + c on your macbook
+          <kbd>cmd+ c</kbd>
+          <kbd>cmd + v</kbd>
+          <kbd>cmd + q</kbd>
+        </p>
+      </code>
+        <hr />
+        <!-- pre tag keeps the spaces as it is -->
+        <pre><code>
+            &lt; h1 &gt;
+            <p>to copy press cmd + c on your macbook  <kbd><kbd>cmd</kbd><kbd>+</kbd><kbd>c</kbd></kbd>
+            </p>
+        </code></pre>
+        <hr />
+    </div>
+
+    <!-- contextual classes -->
+    <div class="container">
+        <div class="bg-primary text-center">I am primary context</div>
+        <div class="bg-warning">I am warning context</div>
+        <div class="bg-success"> I am success context</div>
+        <div class="bg-muted"> I am muted context</div>
+        <div class="bg-info">I am info context</div>
+        <div class="bg-danger">I am danger context</div>
+        <hr>
+        <p class="text-primary"> I am primary context</p>
+        <p class="text-warning">I am warning context</p>
+        <p class="text-success"> I am success context</p>
+        <p class="text-muted"> I am muted context</p>
+        <p class="text-info">I am info context</p>
+        <p class="text-danger">I am danger context</p>
+    </div>
+
+    <!-- buttons -->
+    <hr>
+
+    <div class="container">
+        <button class="btn btn-primary">Button Tag</button> 
+        <!-- not a part of form -->
+        <a class="btn btn-primary" href="#" role="button">Link Button</a>
+        <!-- menu and redirection -->
+        <input  class="btn btn-primary" type="button" name="input-Button" value="btn"/>
+        <!-- forms -->
+    </div>
+
+    <hr>
+    <!-- button with contexts -->
+    <div class="container">
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-danger" disabled>Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info">Info</button>
+        <br>
+        <button class="btn btn-success" >success</button>
+        <button class="btn btn-muted">muted</button>
+        <br>
+        <button class="btn btn-dark">Dark</button>
+    </div>
+
+    <!-- outline types -->
+
+    <hr>
+    <div class="container">
+        <button class="btn btn-outline-primary ">primary</button>
+        <button class="btn btn-outline-danger" disabled>Danger</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-info">Info</button>
+        <br>
+        <button class="btn btn-outline-success" >success</button>
+        <button class="btn btn-outline-muted">muted</button>
+        <br>
+        <button class="btn btn-outline-dark">Dark</button>
+    </div>
+
+    <!-- button sizes -->
+    <hr>
+    <div class="container">
+        <button class="btn btn-lg btn-outline-primary ">primary</button>
+        <button class="btn  btn-outline-danger" disabled>Danger</button>
+        <button class="btn  btn-xs btn-outline-warning">Warning</button>
+        <button class="btn  btn-sm  btn-outline-info">Info</button>
+        <br>
+        <button class="btn btn-lg btn-outline-success" >success</button>
+        <button class="btn  btn-xs btn-outline-muted">muted</button>
+        <br>
+        <button class="btn  btn-sm btn-outline-dark">Dark</button>
+    </div>
+
+    <hr>
+
+    <div style="background-color: transparent; height: 200px;" >
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
