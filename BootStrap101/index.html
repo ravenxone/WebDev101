@@ -13,9 +13,107 @@
 </head>
 
 <body>
-  <h1 class="page-header">Hello, world!</h1>
+ <!-- Creating containers to give a default margin and padding -->
+  <div class="container">
+    <h1>Hello, World.</h1>
+    <p>Lorem <mark> ipsum dolor sit amet consectetur, adipisicing elit. </mark>Aliquam doloremque est minima reiciendis <u> velit autem fugit dolores sunt ex ducimus eligendi quas, ut numquam, debitis eos nulla quae,</u> id perspiciatis.</p>
+    <p>Lorem ipsum dolor sit, <mark>amet consectetur adipisicing elit. </mark>Vero labore neque <del> laudantium! Deserunt, doloremque modi animi dolore</del> dignissimos odit, perferendis obcaecati blanditiis ab soluta, ipsam a laborum ullam sapiente magni sint nobis? Id, minima aspernatur dolorem sunt ea, suscipit voluptates odio, voluptate obcaecati dicta totam sed a. Doloribus, eveniet vero.</p>
+  </div>
 
-  
+<!-- Text Orientation -->
+  <div class="text-left">
+  <p>
+    left  </p>
+  <div class="text-right">
+  <p>
+    right  </p>
+  <div class="text-center">
+  <p>
+    center
+  </p>
+  </div>
+
+
+  <!-- Clearfix is used to make some space around the content  and hr creates a horizontal division by line-->
+  <div class="clearfix"></div>
+  <hr>
+  <!-- blockquote is used to emphasize the text   -->
+  <blockquote  class="blockquote text-center"> 
+    <p>Think Simple.</p>
+    <!-- using footer and citation left right and center-->
+    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+  </blockquote>
+  <blockquote  class="blockquote text-right"> 
+    <p>Think Simple.</p>
+   <hr>
+    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+  </blockquote>
+  <blockquote  class="blockquote text-left"> 
+    <p>Think Simple.</p>
+ <hr>
+    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+  </blockquote>
+
+
+  <!-- lists -->
+
+  <ul class="list-unstyled text-left container">
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+  </ul>
+  <!-- unstyled and inline list -->
+  <ul class="list-unstyled text-left container">
+    <li class="list-inline-item">List item 1</li>
+    <li class="list-inline-item">List item 2</li>
+    <li class="list-inline-item">List item 3</li>
+  </ul>
+
+
+  <!-- code blocks  -->
+  <!-- using <pre> </pre> tags is important while using code tags since, sometimes 
+  code blocks break the text in half. the pre tags ensure the preformatted text is not 
+  disturbed.
+
+  A more formal definition of pre tag is: The HTML
+  <pre> element represents preformatted text which is to be presented 
+    exactly as written in the HTML file.
+
+    this means whatever you type is whatever you get.
+
+    The text is typically rendered using a non-proportional ("monospace") font.
+    Whitespace inside this element is displayed as written. -->
+<hr>
+    <pre class="text-left container">
+      <code>
+        <!-- use &lt; and &gt; whenever you want to put html/css
+         syntax but to inherit the property -->
+      &lt;h1&gt;
+        <p>use cmd+c to copy and cmd+v to paste
+          <kbd>cmd</kbd> 
+          <kbd>+</kbd>
+          <kbd>c</kbd>
+        </p>
+        <p> <b> this is what happens when you use pre</b></p>
+      </code>
+    </pre>
+    <hr>
+      
+    <div class="container">
+        <code class="text-left">
+        <!-- use &lt; and &gt; whenever you want to put html/css
+         syntax but to inherit the property -->
+
+      &lt;h1&gt;
+        <p>use cmd+c to copy and cmd+v to paste
+          <kbd>cmd</kbd>
+          <kbd>+</kbd>
+          <kbd>c</kbd>
+        </p>
+        <p><b>this is what happens when you do not use pre</b></p>
+      </code>
+      </div>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 
