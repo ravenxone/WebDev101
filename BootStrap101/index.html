@@ -8,70 +8,79 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script>
+    console.log("Hello world from the script tag!");
+   
+  </script>
 
   <title>Hello, world!</title>
 </head>
 
 <body>
- <!-- Creating containers to give a default margin and padding -->
+  <!-- Creating containers to give a default margin and padding -->
   <div class="container">
     <h1>Hello, World.</h1>
-    <p>Lorem <mark> ipsum dolor sit amet consectetur, adipisicing elit. </mark>Aliquam doloremque est minima reiciendis <u> velit autem fugit dolores sunt ex ducimus eligendi quas, ut numquam, debitis eos nulla quae,</u> id perspiciatis.</p>
-    <p>Lorem ipsum dolor sit, <mark>amet consectetur adipisicing elit. </mark>Vero labore neque <del> laudantium! Deserunt, doloremque modi animi dolore</del> dignissimos odit, perferendis obcaecati blanditiis ab soluta, ipsam a laborum ullam sapiente magni sint nobis? Id, minima aspernatur dolorem sunt ea, suscipit voluptates odio, voluptate obcaecati dicta totam sed a. Doloribus, eveniet vero.</p>
-  </div>
-
-<!-- Text Orientation -->
-  <div class="text-left">
-  <p>
-    left  </p>
-  <div class="text-right">
-  <p>
-    right  </p>
-  <div class="text-center">
-  <p>
-    center
-  </p>
-  </div>
+    <p>Lorem <mark> ipsum dolor sit amet consectetur, adipisicing elit. </mark>Aliquam doloremque est minima reiciendis
+      <u> velit autem fugit dolores sunt ex ducimus eligendi quas, ut numquam, debitis eos nulla quae,</u> id
+      perspiciatis.</p>
+    <p>Lorem ipsum dolor sit, <mark>amet consectetur adipisicing elit. </mark>Vero labore neque <del> laudantium!
+        Deserunt, doloremque modi animi dolore</del> dignissimos odit, perferendis obcaecati blanditiis ab soluta, ipsam
+      a laborum ullam sapiente magni sint nobis? Id, minima aspernatur dolorem sunt ea, suscipit voluptates odio,
+      voluptate obcaecati dicta totam sed a. Doloribus, eveniet vero.</p>
 
 
-  <!-- Clearfix is used to make some space around the content  and hr creates a horizontal division by line-->
-  <div class="clearfix"></div>
-  <hr>
-  <!-- blockquote is used to emphasize the text   -->
-  <blockquote  class="blockquote text-center"> 
-    <p>Think Simple.</p>
-    <!-- using footer and citation left right and center-->
-    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
-  </blockquote>
-  <blockquote  class="blockquote text-right"> 
-    <p>Think Simple.</p>
-   <hr>
-    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
-  </blockquote>
-  <blockquote  class="blockquote text-left"> 
-    <p>Think Simple.</p>
- <hr>
-    <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
-  </blockquote>
+    <!-- Text Orientation -->
+    <div class="text-left">
+      <p>
+        left </p>
+      <div class="text-right">
+        <p>
+          right </p>
+        <div class="text-center">
+          <p>
+            center
+          </p>
+        </div>
 
 
-  <!-- lists -->
+        <!-- Clearfix is used to make some space around the content  and hr creates a horizontal division by line-->
+        <div class="clearfix"></div>
+        <hr>
+        <!-- blockquote is used to emphasize the text   -->
+        <blockquote class="blockquote text-center">
+          <p>Think Simple.</p>
+          <!-- using footer and citation left right and center-->
+          <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote text-right">
+          <p>Think Simple.</p>
+          <hr>
+          <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote text-left">
+          <p>Think Simple.</p>
+          <hr>
+          <footer class="blockquote-footer"><cite title="RavenXone">RavenXone</cite></footer>
+        </blockquote>
 
-  <ul class="list-unstyled text-left container">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ul>
-  <!-- unstyled and inline list -->
-  <ul class="list-unstyled text-left container">
-    <li class="list-inline-item">List item 1</li>
-    <li class="list-inline-item">List item 2</li>
-    <li class="list-inline-item">List item 3</li>
-  </ul>
+
+        <!-- lists -->
+
+        <ul class="list-unstyled text-left ">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+        <!-- unstyled and inline list -->
+        <ul class="list-unstyled text-left ">
+          <li class="list-inline-item">List item 1</li>
+          <li class="list-inline-item">List item 2</li>
+          <li class="list-inline-item">List item 3</li>
+        </ul>
 
 
-  <!-- code blocks  -->
-  <!-- using <pre> </pre> tags is important while using code tags since, sometimes 
+        <!-- code blocks  -->
+        <!-- using <pre> </pre> tags is important while using code tags since, sometimes 
   code blocks break the text in half. the pre tags ensure the preformatted text is not 
   disturbed.
 
@@ -83,8 +92,8 @@
 
     The text is typically rendered using a non-proportional ("monospace") font.
     Whitespace inside this element is displayed as written. -->
-<hr>
-    <pre class="text-left container">
+        <hr>
+        <pre class="text-left">
       <code>
         <!-- use &lt; and &gt; whenever you want to put html/css
          syntax but to inherit the property -->
@@ -97,27 +106,96 @@
         <p> <b> this is what happens when you use pre</b></p>
       </code>
     </pre>
-    <hr>
-      
-    <div class="container">
+        <hr>
+
+
         <code class="text-left">
-        <!-- use &lt; and &gt; whenever you want to put html/css
+          <!-- use &lt; and &gt; whenever you want to put html/css
          syntax but to inherit the property -->
 
-      &lt;h1&gt;
-        <p>use cmd+c to copy and cmd+v to paste
-          <kbd>cmd</kbd>
-          <kbd>+</kbd>
-          <kbd>c</kbd>
-        </p>
-        <p><b>this is what happens when you do not use pre</b></p>
-      </code>
+          &lt;h1&gt;
+          <p>use cmd+c to copy and cmd+v to paste
+            <kbd>cmd</kbd>
+            <kbd>+</kbd>
+            <kbd>c</kbd>
+          </p>
+          <p><b>this is what happens when you do not use pre</b></p>
+        </code>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+
+
+      <div class="container">
+        <h2 class="table-danger"><u>Contextual Classes that go along with bootstrap</u></h2>
+        <!-- bg is for background -->
+        <div class="bg-primary">I am a default context</div>
+        <div class="bg-warning">I am a warning context</div>
+        <div class="bg-success">I am a success context</div>
+        <div class="bg-danger">I am a danger context</div>
+        <div class="bg-info">I am an info context </div>
+        <div class="bg-muted">I am a muted context</div>
+        <hr>
+        <p class="text-primary">I am a default context</p>
+        <p class="text-warning">I am a warning context</p>
+        <p class="text-success">I am a success context</p>
+        <p class="text-danger">I am a danger context</p>
+        <p class="text-info">I am an info context </p>
+        <p class="text-muted">I am a muted context</p>
+
+
+
       </div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-
+      <!-- buttons -->
+      <div class="clearfix"></div>
+      <hr>
+      <div class="container">
+        <h2 class="bg-info">Let's talk buttons!</h2>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-muted">muted</button>
+        <button class="btn btn-dark">dark</button>
+        <button class="btn btn-link">link</button>
+      </div>
+      <hr>
+      <div class="container">
   
+        <button class="btn btn-outline-danger">danger</button>
+        <button class="btn btn-outline-primary">primary</button>
+        <button class="btn btn-outline-warning">warning</button>
+        <button class="btn btn-outline-success">success</button>
+        <button class="btn btn-outline-info">info</button>
+        <button class="btn btn-outline-muted">muted</button>
+        <button class="btn btn-outline-dark">dark</button>
+        <button class="btn btn-outline-link">link</button>
+      </div>
+
+      <hr>
+
+      <!-- Let's talk about forms -->
+      <form action="#" method="GET">
+        <div class="form-group">
+          <label for="username">
+            Username
+            <input class="form-control" id="username" name="username" placeholder="John Doe" type="text">
+
+          </label>
+        </div>
+      </form>
+
+
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>
