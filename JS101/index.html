@@ -2,12 +2,43 @@
 <html>
   <head>
     <title>JS 101</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- <script src="./index.js"></script> -->
     <!-- when you include js at top it may happen that js runs before html has created elements and that's why  -->
   </head>
 
   <body>
     <h1>Hello JavaScript!</h1>
+    <div style="margin-left: 10%">
+      <h3>Add Two Numbers</h3>
+      <form name="Myform">
+        <input
+          id="num1"
+          type="number"
+          name="num1"
+          placeholder="Number 1"
+          value=""
+        />
+        +
+        <input
+          id="num2"
+          type="number"
+          name="num2"
+          placeholder="Number 2"
+          value=""
+        />
+        <button id="mybtn" onclick="sum()">Add numbers</button>
+        <input
+          id="result"
+          type="number"
+          name="result"
+          disabled
+          placeholder="Result"
+          value=""
+        />
+      </form>
+      <!--write your code here-->
+    </div>
   </body>
   <!-- <script>
     console.clear();
