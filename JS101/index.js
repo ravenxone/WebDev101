@@ -417,4 +417,27 @@ calculateSum(3,4);
 ((a,b) => {console.log(a+b);})(2,3);
 
 
+// {
+//     'strict on'
+// foo();
+// function foo(){
+//     console.log(bam);//this gives undefined error.
+//     var bam = 'bam'; // var is function scoped.
+// }
+// console.log(bam);// hence it is not available outside.// this gives a reference error.
+// }
 
+
+
+    console.log(typeof(foo));
+    var foo = "foo";
+    function foo(){
+        var bam = "bam";
+        console.log(bam);
+    }
+
+    //here the function block is hoisted on top 
+    //then var foo is declared 
+    //then "foo" is assigned
+    //then console.log is at the bottom
+    //therefore when typeof is called it outputs function 
