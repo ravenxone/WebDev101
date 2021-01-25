@@ -11,7 +11,37 @@
     <h1>Hello JavaScript!</h1>
     <div style="margin-left: 10%">
       <h3>Add Two Numbers</h3>
-      <form name="Myform">
+      <h1>Grocery List</h1>
+      <!--input fields -->
+
+      <input
+        placeholder="Name"
+        data-ns-test="item-name"
+        id="item-name-input"
+        value=""
+      />
+      <input
+        placeholder="Price"
+        data-ns-test="item-price"
+        id="item-price-input"
+        value=""
+      />
+      <button id="button" onclick="insertItem()">ADD</button>
+
+      <table id="my_table">
+        <tr>
+          <th>Sr. No.</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th></th>
+          <th data-ns-test="grandTotal" id="sum"></th>
+        </tr>
+      </table>
+
+      <!-- <form name="Myform">
         <input
           id="num1"
           type="number"
@@ -36,7 +66,7 @@
           placeholder="Result"
           value=""
         />
-      </form>
+      </form> -->
       <!--write your code here-->
     </div>
   </body>
