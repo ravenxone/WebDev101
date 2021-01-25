@@ -1,0 +1,15 @@
+body{
+    background: skyblue;
+}
+#div1{
+    height: 150vh;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.div1{
+    height: 50vh;
+}
