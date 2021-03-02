@@ -1,36 +1,55 @@
-#bomberman{
-    
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+#grid_div{
+
+
+}
+#resultDisplay{
+   text-align: center;
+}
+.unblock_grid{
+
+}
+.block_grid{
+    pointer-events: none;
+}
+.bomb_here{
+     background: url(https://img.icons8.com/emoji/48/000000/bomb-emoji.png);
+     width: 5vh;
+     height: 5vh;
+     padding: 0;
+     text-align: center;
+}
+.game_start_mode{
+
+    background: rgb(66, 59, 59);
+    width: 5vh;
+    height: 5vh;
+    padding: 0;
+    text-align: center;
+}
+.game_no_bomb {
+
+    background: rgb(21, 247, 0);
+    width: 5vh;
+    height: 5vh;
+    padding: 0;
+    text-align: center;
 }
 
-.btn-group button{
-   background-color: #4CAF50;
-   /* Green background */
-   border: 1px solid green;
-   /* Green border */
-   color: white;
-   /* White text */
-   padding: 10px 24px;
-   /* Some padding */
-   cursor: pointer;
-   /* Pointer/hand icon */
-  
-   /* Float the buttons side by side */
-}
-.vertical-group button {
-    background-color: #4CAF50;
-    /* Green background */
-    border: 1px solid green;
-    /* Green border */
-    color: white;
-    /* White text */
-    padding: 10px 24px;
-    /* Some padding */
-    cursor: pointer;
-    /* Pointer/hand icon */
-   
-    /* Float the buttons side by side */
+body{
+    background: white;
 }
 
-.btn-group button:not(:last-child){
-    border-right: none;
+#gameScore{
+   text-align: center;
+}
+#resetButton{
+ margin: 0 auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
